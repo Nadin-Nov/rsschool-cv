@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>CV Nadin-Novoselova</title>
+</head>
+<body>
+<div class="center">
+    <div class="container">
+        <div class="image">
+            <img class="Userpick" src="./nadin.jpg" alt="Userpick">
+        </div>
+        <header class="name">
+            <nav class="list">
+                <ul class="menu-nav">
+                    <li class="nav-item"><a href="#сont" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#educ" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="navigation">
+            <h2 class="decor" id="cont">Contacts:</h2>
+            <ul>
+                <li><samp>Location:</samp> Snt. Petersburg, Russia</li>
+                <li><samp>E-mail: </samp><a href="nadja.novoselova@gmail.com" class="link">nadja.novoselova@gmail.com</a></li>
+                <li><samp>Telegram:</samp> <a href="https://telegram.me/nadin_n" class="link">Nadin_n</a></li>
+                <li><samp>GitHub:</samp><a href="https://github.com/Nad-Nov" class="link">Nad-Nov</a></li>
+            </ul>
+            <div class="whiteline"></div>
+            <div class="skills"><h2 class="decor" id="skill">Skills:</h2></div>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>Photoshop</li>
+                <li>Postman</li>
+                <li>DevTools</li>
+            </ul>
+            <div class="whiteline"></div>
+            <div class="skills"><h2 class="decor" id="lang">Languages:</h2></div>
+            <ul>
+                <li>Russian(native)</li>
+                <li>English(Pre-Intermediate)</li>
+                <li>Italian(Basic))</li>
+            </ul>
+
+        </aside>
+        <main class="main">
+            <section class="Profile" id="Profile">
+            <h1 class="fullname">Nadezhda Novoselova</h1>
+            <div class="aboutme">
+                <h2 class="decor" id="about">About:</h2>
+                <p>Have been working in the financial department of the bank for a long time.
+                    <br>And now I want to change my field of activity and life
+                </p>
+                </div>
+            </section>
+            <section class="education" id="education">
+            <div class="education">
+                <h2 class="decor" id="educ">Education:</h2>
+                <ul>
+                    <li>St. Petersburg Economic University </li>
+                    <li>Rolling Scope School - Preschool JS - in process</li>
+                </ul>
+            </div>
+            </section>
+            <section class="code" id="code_example">
+            <div class="example">
+                <h2 class="decor" id="code">Code example:</h2>
+                <div class="eximage">
+                    <pre><code>
+ n = int(input())
+ s = input()
+ for x in s:
+     d = ord(x) - n
+     if d &lt; 97:
+         d += 26
+     print(chr(d), end = '')
+                </code></pre>
+                </div>
+            </div>
+            </section>
+    <section class="Project" id="Project">
+        <h2 class="decor" id="Projects">Projects:</h2>
+        <ul>
+        <li><a href="https://Nad-nov.github.io/rsschool-cv/" class="link">CV for rsschool </a></li>
+        </ul>
+    </section>
+    </main>
+<footer class="footer">
+    <div class="footerleft">
+        <a href="https://github.com/Nadin-Nov">
+            <img src="./github.svg" alt="github-Nadin-Nov" class="img_github" width="40">
+        </a>
+                  </div>
+    <div class="footercenter">Nadin N. 2024</div>
+    <div class="footerright">
+        <a href="https://rs.school/courses/javascript-preschool-ru">
+            <img src="./logo.svg" alt="Rsschool" class="img_rsschool">
+          </a>
+    </div>
+</footer>
+    </div>
+</div>
+</body>
+</html>
