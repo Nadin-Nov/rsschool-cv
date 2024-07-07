@@ -3,68 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nadin N.-CV</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <link rel="icon" href="./favicon.ico"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>CV Nadin-Novoselova</title>
 </head>
-
-
 <body>
-<header>
-    <div class="conteiner">
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#lang" class="nav-link">language skills</a></li>
+<div class="center">
+    <div class="container">
+        <div class="image">
+            <img class="Userpick" src="./nadin.jpg" alt="Userpick">
+        </div>
+        <header class="name">
+            <nav class="list">
+                <ul class="menu-nav">
+                    <li class="nav-item"><a href="#сont" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#educ" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#proj" class="nav-link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="navigation">
+            <h2 class="decor" id="cont">Contacts:</h2>
+            <ul>
+                <li><samp>Location:</samp> Snt. Petersburg, Russia</li>
+                <li><samp>E-mail:</samp> <a href="mailto: nadja.novoselova@gmail.com" class="link">nadja.novoselova@gmail.com</a></li>
+                <li><samp>Telegram:</samp> <a href="https://telegram.me/nadin_n" class="link">Nadin_n</a></li>
+                <li><samp>GitHub:</samp><a href="https://github.com/Nad-Nov" class="link">Nad-Nov</a></li>
             </ul>
-          </nav>
-</div>
-</header>
+            <div class="whiteline"></div>
+            <div class="skills"><h2 class="decor" id="skill">Skills:</h2></div>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>Photoshop</li>
+                <li>Postman</li>
+                <li>DevTools</li>
+            </ul>
+            <div class="whiteline"></div>
+            <div class="skills"><h2 class="decor" id="lang">Languages:</h2></div>
+            <ul>
+                <li>Russian(native)</li>
+                <li>English(Pre-Intermediate)</li>
+                <li>Italian(Basic))</li>
+            </ul>
 
-
-<main clacc="main" id="main">
-        <section class="profile" id="profile"">
-            <div class="personal-photo" id="profile">
-                <img src="./nadin.jpg" alt="my photo" width="230" height="310">
+        </aside>
+        <main class="main">
+            <section class="Profile" id="Profile">
+            <h1 class="fullname">Nadezhda Novoselova</h1>
+            <div class="aboutme">
+                <h2 class="decor" id="about">About:</h2>
+                <p>Have been working in the financial department of the bank for a long time.
+                    <br>And now I want to change my field of activity and life
+                </p>
+                </div>
+            </section>
+            <div class="line"></div>
+            <section class="education" id="education">
+            <div class="education">
+                <h2 class="decor" id="educ">Education:</h2>
+                <ul>
+                    <li>St. Petersburg Economic University </li>
+                    <li>Rolling Scope School - Preschool JS - in process</li>
+                </ul>
             </div>
-            <div class="conteiner">
-            <h1 class="profile">Novoselova Nadezhda</h1>
+            </section>
+            <div class="line"></div>
+            <section class="code" id="code">
+            <div class="example">
+                <h2 class="decor" id="code">Code example:</h2>
+                <div class="eximage">
+                    <pre><code>
+ n = int(input())
+ s = input()
+ for x in s:
+     d = ord(x) - n
+     if d < 97:
+         d += 26
+     print(chr(d), end = '')
+                </code></pre>
+                </div>
             </div>
-        </section>
-
-<section class="contacts" id="contacts">
-    <h2 class="contacts">Contacts</h2>
-</section>
-<section class="summury" id="summary">
-    <h2 class="Summury">Summury</h2>
-</section>
-<section class="Skills" id="Skills">
-<h2 class="Skills">Skills</h2>
-</section>
-<section class="Code" id="Code">
-    <h2 class="Code">Code</h2>
-</section>
-<section class="Courses" id="Courses">
-    <h2 class="Courses">Courses</h2>
-</section>
-<section class="Projects" id="Projects">
-    <h2 class="Projects">Projects</h2> </section>
-<section class="Education" id="Education">
-    <h2 class="Education">Education</h2> </section>
-<section class="language skills" id="language skills"> 
-    <h2 class="language skills">language skills</h2>
-</section>
-</div>
-</main>
+            </section>
+    <section class="Project" id="Project">
+        <h2 class="decor" id="Project">Projects:</h2>
+        <ul>
+        <li><samp>CV fo rsschool</samp> < href="mailto: nadja.novoselova@gmail.com" class="link">CV fo rsschool
+        </a></li>
+        </ul>
+    </section>
+        </main>
 <footer class="footer">
     <div class="footerleft">
         <a href="https://github.com/Nadin-Nov">
