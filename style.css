@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     display: flex;
     flex-direction: column;
@@ -15,9 +18,7 @@
     justify-content: flex-end;
     align-items: center;
   }
-  html {
-    scroll-behavior: smooth;
-  }
+
   .nav-list {
     list-style: none;
   }
@@ -55,7 +56,7 @@
 .footercenter{
     grid-row: 2/3;
     grid-column: 3/4;
-    color: white;
+    color: rgb(71, 67, 67);
     justify-content: right;
     font-size: 12px;
     align-self: center;
@@ -103,7 +104,7 @@ body{
     width: 1024px;
     font-size: 18px;
     line-height: 1,5;
-    background-color: white;
+    background-color: rgb(249, 240, 240);
     box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 
 }
@@ -116,15 +117,14 @@ body{
 .image{
     grid-row: 2/3;
     grid-column: 2/3;
-    
+
 }
 
 .myPhoto{
     width: 240px;
-    height: 240px; 
-    border-radius: 120px;  
+    height: 240px;
+    border-radius: 120px;
 }
-
 .name{
     grid-row: 2/3;
     grid-column: 4/7;
@@ -132,19 +132,15 @@ body{
     padding-left: 30px;
 }
 
-
-}
 .fullname{
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 5px;
-    
 }
-
 .navigation{
     grid-row: 4/5;
     grid-column: 1/4;
-    background-color: #778899;
+    background-color: #f9ad8c;
     padding-left: 10px;
     color: white;
     font-weight: 100;
@@ -157,42 +153,29 @@ body{
     padding-left: 30px;
     font-weight: 100;
 }
-.decor{
-    font-weight: 500;   
-    margin-top:30px;
-    margin-bottom: 30px;
-    
-}
 
 a.link:link{
     text-decoration: none;
-    color: white;
+    color: rgb(47, 47, 47);
 }
 
 a.link:visited{
     text-decoration: none;
-    color: white;
+    color: rgb(47, 47, 47);
 }
 
 a.linkblack:link{
     text-decoration: none;
-    color: #778899;
+    color: #1b1b1b;
 }
 a.linkblack:visited{
     text-decoration: none;
-    color: #778899;
-}
-
-.line{
-    border-bottom: 1px solid #778899;
-    margin-right: 20px;
-    margin-top:30px;
-    margin-bottom: 30px;
+    color: #1b1b1b;
 }
 
 .whiteline{
-    border-bottom: 1px solid white;
-    margin-right: 20px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    margin-right: 10px;
 }
 
 .skills{
@@ -200,14 +183,13 @@ a.linkblack:visited{
 }
 
 .eximage{
-    background-color: #778899;
+    background-color: #f9fafb;
     width: 600px;
-    height: 315px;
-    color: white; 
+    height: 200px;
+    color: rgb(80, 79, 79); 
     font-weight: 100;
-    font-size: 12px;
+    font-size: 16px;
 }
-
 .menu-nav{
     display: flex;
     flex-direction: row;
@@ -220,24 +202,15 @@ a.linkblack:visited{
 a.nav-link:link{
     text-decoration: none;
     color:#778899;
-    font-size: 12px;
+    font-size: 14px;
 }
 a.nav-link:visited{
     text-decoration: none;
     color:#778899;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 li.nav-item{
     list-style-type: none;
 }
 
-.img_github_logo{
-    width:26px;
-    height:26px;
-}
-
-.img_rsschool{
-    width:73px;
-    height:26px;
-}
